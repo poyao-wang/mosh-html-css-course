@@ -17,16 +17,13 @@
 
   <body>
     <form action="">
-      <div>
-        <label for="name">Name</label>
-        <input id="name" type="text" />
-      </div>
-      <div class="mb-3">
-        <label for="email">Email</label>
-        <input id="email" type="email" />
-      </div>
-      <button type="submit">Register</button>
-      <button type="reset">Clear</button>
+      <input type="text" list="countries" autocapitalize="off" />
+      <datalist id="countries">
+        <option>Australia</option>
+        <option>Canada</option>
+        <option>India</option>
+        <option>United State</option>
+      </datalist>
     </form>
   </body>
 </html>
