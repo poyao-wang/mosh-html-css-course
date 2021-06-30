@@ -11,15 +11,6 @@ body {
   background: gold;
 }
 
-.container {
-  perspective: 200px;
-}
-
-.container:hover .box {
-  transform: rotateY(45deg);
-  transform-origin: 0 50%;
-}
-
-.container:hover .box-special {
-  transform: rotateX(45deg);
+.box:hover {
+  transform: rotate(45deg);
 }
