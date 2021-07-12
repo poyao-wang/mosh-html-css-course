@@ -458,3 +458,13 @@ a {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* Testimonials */
+
+.testimonial {
+  padding: 3rem;
+}
+
+.testimonial__image {
+  width: 100%;
+}
