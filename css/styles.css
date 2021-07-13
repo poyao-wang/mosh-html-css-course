@@ -475,7 +475,7 @@ a {
 /* Testimonials */
 
 .testimonial {
-  padding: 3rem;
+  padding: 3rem 6rem;
 }
 
 .testimonial__image {
@@ -490,4 +490,33 @@ a {
   position: absolute;
   top: 3rem;
   right: -32px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonial .quote,
+  .testimonial .quote__author {
+    font-size: 2.4rem;
+  }
+
+  .testimonial .quote__organization {
+    font-size: 2rem;
+  }
+
+  .testimonial .quote {
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonial .quote {
+    font-size: 2rem;
+  }
+
+  .testimonial .quote__author {
+    font-size: 2.4rem;
+  }
+
+  .testimonial .quote__organization {
+    font-size: 1.6rem;
+  }
 }
