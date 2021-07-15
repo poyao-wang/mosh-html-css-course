@@ -645,11 +645,13 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 0 1rem;
+  align-items: center;
 }
 
 .nav__list {
   width: 100%;
+  margin: 0;
 }
 
 .nav__item {
@@ -664,4 +666,16 @@ a {
 
 .nav__item > a:hover {
   color: #fff;
+}
+
+.nav__toggler {
+  opacity: 0.5;
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+
+.collapsible--expanded .nav__toggler {
+  opacity: 1;
+  box-shadow: 0 0 0 3px #666;
+  border-radius: 5px;
 }
