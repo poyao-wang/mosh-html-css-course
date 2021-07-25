@@ -857,3 +857,13 @@ a {
 .footer {
   background: #232323;
 }
+
+.footer__section {
+  padding: 2rem;
+  border-bottom: 1px solid #393939;
+}
+
+.footer__heading {
+  text-transform: uppercase;
+  font-weight: 600;
+}
